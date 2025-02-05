@@ -1,0 +1,65 @@
+ body {
+                background-image: url("ful.png");
+                background-repeat: no-repeat;
+                color: white;
+               
+                background-attachment: fixed;
+            }
+            
+            
+a:link {
+  color: #B01C32;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #EEBB25;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EEBB25;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+header {
+    Background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 1px 4rem;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    flex-direction: column;
+}
+.logo{
+    font-size:2rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.logo span{
+    text-shadow: 0 0 25px var(--main-color);
+}
+nav {
+    
+    
+}
